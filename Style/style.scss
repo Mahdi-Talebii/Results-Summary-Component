@@ -1,0 +1,49 @@
+// General Styles
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Hanken Grotesk;
+}
+
+p {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.centralize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.centralize-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.max-score {
+    color:hsl(241, 100%, 89%);
+    font-size: 1.6rem;
+}
+
+
+@import "body";
